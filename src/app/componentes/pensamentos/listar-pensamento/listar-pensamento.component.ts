@@ -1,3 +1,5 @@
+import { PensamentoService } from './../pensamento.service';
+import { Pensamento } from './../pensamento';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListarPensamentoComponent implements OnInit {
 
-  listaPensamentos = [
+  listaPensamentos: Pensamento[] = [
+    /*
+    COMENTADO, PORQUE AGORA ESSA ARRAY RECEBERA INFORMAÇÕES DO BACKEND
     {
       conteudo: 'Passo informações para o componente filho',
       autoria: 'Componente Pai',
@@ -22,13 +26,15 @@ export class ListarPensamentoComponent implements OnInit {
       conteudo: 'Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Diuretics paradis num copo é motivis de denguis. Atirei o pau no gatis, per gatis num morreus. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Sapien in monti palavris qui num significa nadis i pareci latim.',
             autoria: '',
             modelo: 'modelo2'
-        }
-
+        } */
   ];
 
-  constructor() { }
+  constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos
+    });
   }
 
 }
