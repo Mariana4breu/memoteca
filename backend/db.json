@@ -4,61 +4,64 @@
       "id": 1,
       "conteudo": "Make your best mistakes cause we don’t have the time to be sorry",
       "autoria": "Shawn Mendes",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Maybe we found love right where we are",
       "autoria": "Ed Sheeran",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "And everywhere we go, the sun will always shine! ",
       "autoria": "Christina Aguilera",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
-      "id": 3,
-      "conteudo": " I had a dream I got everything I wanted",
-      "autoria": "Billie Eilish",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 3,
+      "id": 5,
       "conteudo": "Don’t look back, just carry on",
       "autoria": "Rihanna",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
-      "id": 3,
+      "id": 6,
       "conteudo": "Basta ser sincero e desejar profundo, você será capaz de sacudir o mundo",
       "autoria": "Raul Seixas",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
-      "id": 3,
+      "id": 7,
       "conteudo": "Que a vida é mesmo coisa muito frágil, uma bobagem, uma irrelevância, diante da eternidade do amor de quem se ama",
       "autoria": "Nando Reis",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
-      "id": 3,
+      "id": 8,
       "conteudo": "Mas se você achar que eu tô derrotado, saiba que ainda estão rolando os dados, porque o tempo, o tempo não para",
       "autoria": "Cazuza",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
-      "id": 3,
+      "id": 9,
       "conteudo": "Oh, and twisted thoughts that spin round my head. I’m spinning, oh, I’m spinning. How quick the Sun can drop away?",
       "autoria": "Pearl Jam",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
-      "id": 3,
+      "id": 10,
       "conteudo": "Because, maybe, you’re gonna be the one that saves me, and after all, you’re my wonderwall",
       "autoria": "Oasis",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     }
   ]
 }
